@@ -1,33 +1,33 @@
-h1{
+h1 {
     margin: 0 0 0 0;
     color: rgb(255,255,255);
 }
 
-p{
+p {
     margin: 0 0 0 0;
     font-size: 20px;
    
 }
 
-body{
+body {
     margin: 0 0 0 0;
 }
 
-a{
+a {
     font-size: 20px;
 }
 
-header{
+header {
     border-bottom: 20px;
     background-color: rgb(244,79,79);
     text-align: center;
 }
 
-main{
+main {
     margin:  10px 10px 10px 10px;
 }
 
-#parent{
+#parent {
     display: flex;
 }
   
@@ -43,7 +43,7 @@ main{
     color: rgb(97,206,249);
 }
 
-.contents img{
+.contents img {
     margin: 10px 0;
     width: 70%; 
 }
@@ -58,31 +58,31 @@ h2::before {
     color: rgb(239,111,139);
 }
 
-footer{
+footer {
     background-color: rgb(244,79,79);
     text-align: center; 
 }
 
-a{
+a {
     color: rgb(255,255,255);
 }
 
-a:visited{
+a:visited {
     color: rgb(193,234,251);
 }
 
-a:hover{
+a:hover {
     color: rgb(245,178,168);
 }
 
-@media screen and (max-width: 768px){
-    h2{
+@media screen and (max-width: 768px) {
+    h2 {
         font-size:  30px;
     }
-    p{
+    p {
         font-size: 25px;
     }
-    #parent{
+    #parent {
         flex-direction: column;
         align-items: center;
     }
